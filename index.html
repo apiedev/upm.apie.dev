@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apie.dev Unity Packages</title>
+    <meta name="description" content="Unity packages by Apie.dev - High-performance tools for Unity developers">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📦 Apie.dev Unity Packages</h1>
+            <p class="subtitle">High-performance tools for Unity developers</p>
+        </header>
+
+        <main>
+            <section class="package-list">
+                <!-- Prism Video Package -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h2>🎬 Prism Video</h2>
+                        <span class="version-badge">v0.1.0</span>
+                    </div>
+
+                    <p class="package-description">
+                        High-performance native video player with HLS streaming support.
+                        Stream from Twitch, YouTube Live, and more with built-in URL extraction.
+                    </p>
+
+                    <div class="features">
+                        <h3>Features</h3>
+                        <ul>
+                            <li>✅ HLS/DASH streaming (Twitch, YouTube Live)</li>
+                            <li>✅ Hardware-accelerated decoding (Media Foundation)</li>
+                            <li>✅ Built-in Twitch URL extraction (no external tools)</li>
+                            <li>✅ Adaptive bitrate streaming</li>
+                            <li>✅ Windows 10+ support</li>
+                        </ul>
+                    </div>
+
+                    <div class="installation">
+                        <h3>Installation</h3>
+
+                        <div class="install-method">
+                            <h4>GitLab (Recommended)</h4>
+                            <div class="url-box" onclick="copyToClipboard('gitlab-url', this)">
+                                <code id="gitlab-url">https://gitlab.com/notreallycheeks/prism-video.git?path=/UnityPackage</code>
+                                <button class="copy-btn">Copy</button>
+                            </div>
+                            <p class="install-note">Open source platform, unlimited bandwidth</p>
+                        </div>
+
+                        <div class="install-method">
+                            <h4>GitHub (Mirror)</h4>
+                            <div class="url-box" onclick="copyToClipboard('github-url', this)">
+                                <code id="github-url">https://github.com/apiedev/prism-video.git?path=/UnityPackage</code>
+                                <button class="copy-btn">Copy</button>
+                            </div>
+                            <p class="install-note">Mirrored for redundancy</p>
+                        </div>
+
+                        <div class="how-to">
+                            <details>
+                                <summary>How to install in Unity</summary>
+                                <ol>
+                                    <li>Open Unity Package Manager (Window → Package Manager)</li>
+                                    <li>Click <strong>+</strong> → <strong>Add package from git URL</strong></li>
+                                    <li>Paste the URL above</li>
+                                    <li>Click <strong>Add</strong></li>
+                                </ol>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="links">
+                        <a href="https://gitlab.com/notreallycheeks/prism-video" target="_blank" class="btn btn-primary">
+                            📖 Documentation
+                        </a>
+                        <a href="https://gitlab.com/notreallycheeks/prism-video/-/releases" target="_blank" class="btn btn-secondary">
+                            📦 Releases
+                        </a>
+                        <a href="https://gitlab.com/notreallycheeks/prism-video/-/issues" target="_blank" class="btn btn-secondary">
+                            🐛 Issues
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Placeholder for future packages -->
+                <div class="package-card coming-soon">
+                    <h2>More packages coming soon...</h2>
+                    <p>Stay tuned for more Unity tools and libraries!</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ by <a href="https://apie.dev" target="_blank">Apie.dev</a></p>
+            <p class="footer-links">
+                <a href="https://gitlab.com/notreallycheeks" target="_blank">GitLab</a> •
+                <a href="https://github.com/apiedev" target="_blank">GitHub</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
