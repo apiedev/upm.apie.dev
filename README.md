@@ -1,4 +1,4 @@
-# Apie.dev Unity Package Manager Landing Page
+# Unity Package Manager Landing Page
 
 This repository hosts the landing page for Unity packages at `upm.apie.dev`.
 
@@ -40,3 +40,4 @@ upm.apie.dev → notreallycheeks.github.io
 ## License
 
 MIT
+
